@@ -2,7 +2,7 @@
 
 ## NATIVE SPLASH
 
-### Run on terminal
+### Run in terminal
 ```bash
 flutter pub add --dev flutter_native_splash
 ```
@@ -19,7 +19,7 @@ flutter_native_splash:
     image: assets/images/splash_logo.png # Change image splash
 ```
     
-### Run on terminal
+### Run in terminal
 ```bash
 flutter pub run flutter_native_splash:create
 ```
@@ -27,7 +27,7 @@ flutter pub run flutter_native_splash:create
 
 ## CREATE LAUCHER ICON
 
-### Run on terminal
+### Run in terminal
 ```bash
 flutter pub add --dev flutter_launcher_icons 
 ```
@@ -42,7 +42,7 @@ flutter_launcher_icons:
   adaptive_icon_background: "#111A22"
 ```
 
-### Run on terminal
+### Run in terminal
 ```bash
 flutter pub run flutter_launcher_icons:main
 ```

@@ -7,7 +7,7 @@
 flutter pub add --dev flutter_native_splash
 ```
 
-### Insert on pubspect.yaml
+### Insert into pubspec.yaml
 ```
 flutter_native_splash:
   color: "#111A22" #Change color
@@ -32,7 +32,7 @@ flutter pub run flutter_native_splash:create
 flutter pub add --dev flutter_launcher_icons 
 ```
 
-### Insert on pubspect.yaml
+### Insert into pubspec.yaml
 ```
 flutter_launcher_icons:
   ios: true

@@ -1,63 +1,42 @@
 # FLUTTER COMMANDS
 
-## CREATE NEW PROJECT
+- O objetivo desse projeto é reunir informações de como instalar, configurar e criar projetos com flutter.
 
-- Platforms: *android, ios, windows, linux*
-- Org: *You Domain*
+### Estrutura do projeto
 
-```bash
-flutter create project-name --org com.exemple --platforms android,ios
 ```
-
-## FLUTTER BUILD RELEASE
-
-```bash
-flutter build apk --release --no-tree-shake-icons
+flutter-config-guide/
+│
+├── 1-project-creation/
+│   ├── README.md          # Explicação sobre criação de projetos
+│   ├── basic-creation.md  # Comando básico de criação
+│   └── platforms-options.md # Opções de plataformas
+│
+├── 2-build-release/
+│   ├── README.md          # Sobre builds de release
+│   ├── android-apk.md     # Build para APK
+│   ├── android-appbundle.md # Build para App Bundle
+│   └── ios.md            # Build para iOS
+│
+├── 3-splash-screen/
+│   ├── README.md          # Sobre splash screens
+│   ├── setup.md          # Configuração inicial
+│   ├── configuration.md  # Opções de configuração
+│   └── generation.md     # Comando de geração
+│
+├── 4-launcher-icon/
+│   ├── README.md          # Sobre ícones de aplicativo
+│   ├── setup.md          # Configuração inicial
+│   ├── configuration.md  # Opções de configuração
+│   └── generation.md     # Comando de geração
+│
+├── 5-additional-tools/
+│   ├── README.md          # Ferramentas adicionais úteis
+│   ├── localization.md   # Configuração de internacionalização
+│   └── firebase.md       # Integração com Firebase
+│
+└── README.md             # Documentação principal do repositório
 ```
+### Licença
 
-## NATIVE SPLASH
-
-### Run in terminal
-```bash
-flutter pub add --dev flutter_native_splash
-```
-
-### Insert into pubspec.yaml
-```
-flutter_native_splash:
-  color: "#FFFFFF" #Change color
-  image: assets/images/splash_logo.png # Change image splash
-  android: true
-  ios: true
-  android_12:
-    icon_background_color: "#FFFFFF" # Change background color
-    image: assets/images/splash_logo.png # Change image splash
-```
-    
-### Run in terminal
-```bash
-flutter pub run flutter_native_splash:create
-```
----
-
-## CREATE LAUCHER ICON
-
-### Run in terminal
-```bash
-flutter pub add --dev flutter_launcher_icons 
-```
-
-### Insert into pubspec.yaml
-```
-flutter_launcher_icons:
-  ios: true
-  android: launcher_icon
-  image_path: assets/images/splash_logo.png
-  adaptive_icon_foreground: assets/images/splash_logo.png 
-  adaptive_icon_background: "#FFFFFF"
-```
-
-### Run in terminal
-```bash
-flutter pub run flutter_launcher_icons:main
-```
+- Este software é proprietário e de uso exclusivo da Infortecnicos, o mesmo está sobre licença privada, [LICENCE](LICENCE.md).

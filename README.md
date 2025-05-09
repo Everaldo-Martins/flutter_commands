@@ -9,6 +9,12 @@
 flutter create project-name --org com.exemple --platforms android,ios
 ```
 
+## FLUTTER BUILD RELEASE
+
+```bash
+flutter build apk --release --no-tree-shake-icons
+```
+
 ## NATIVE SPLASH
 
 ### Run in terminal
